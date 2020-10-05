@@ -46,6 +46,22 @@
             "welcome",
             "welcome.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Calculator",
+            "Calculator.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "twoControls",
+            "twoControls.json"
+          ]
         }
       ],
       "configxml": null,
@@ -69,7 +85,7 @@
       "exetitle": "",
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "membership",
+      "firstform": "Calculator",
       "fontFamily": "system",
       "height": "",
       "homescreenTitle": "",
