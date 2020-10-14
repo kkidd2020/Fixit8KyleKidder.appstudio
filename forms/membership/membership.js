@@ -10,7 +10,6 @@ btnSubmitMem.onclick=function() {
   } else {
     members.push(userName)
   lblMessageMem.textContent = `${userName} has been added as a member`
-  members.push(userName)
   }
 }
 
