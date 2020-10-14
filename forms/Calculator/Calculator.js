@@ -17,3 +17,10 @@ btnMult.onclick=function(){
   let answer = parseInt(firstNumber) * parseInt(secondNumber)
   lblAnswer.value = `${name}, the answer is ${answer}`
 }
+
+btnClear.onclick=function(){
+  inptName.value = ""
+  inptNum1.value = ""
+  inptNum2.value = ""
+  lblAnswer.value = ""
+}

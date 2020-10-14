@@ -4,11 +4,12 @@ let members = ["Mary","Sam","Joey","Paul","Mike","Char","Jenny","Kennedy","Kaden
 let userName = ""
 
 btnSubmitMem.onclick=function() {
-  userName = inptUserName.value
-  if (members.includes(userName))
-    lblMessage.textContent = "You are a member"
-  else {
-  lblMessageMem.textContent = "You are not a member"
+ let userName = inptUserName.value
+  if (members.includes(userName)) {
+    lblMessageMem.textContent = `${userName} is a member`
+  } else {
+    members.push(userName)
+  lblMessageMem.textContent = `${userName} has been added as a member`
   members.push(userName)
   }
 }

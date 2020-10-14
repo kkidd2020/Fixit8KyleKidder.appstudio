@@ -63,6 +63,15 @@
         "Elements",
         "inptName.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Calculator",
+        "Elements",
+        "btnClear.json"
+      ]
     }
   ],
   "class": "",
